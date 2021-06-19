@@ -1,7 +1,6 @@
 /*
 
- Lecturer Availablity Attendance (Using RFID and Arduino Nano)
- -Muhammad Afiq bin Mohd Yusof
+ Lecturer Availablity Attendance (Using RFID, LCD 20x4 and Arduino Nano)
 
   The circuit:
  * LCD RS pin to digital pin A0
@@ -50,15 +49,6 @@ void setup() {
   lcd.setCursor(2,3);
   lcd.print("Encik Yahya: ");
 }
-
-/*void clearLCDLine(int line)
-{               
-    lcd.setCursor(0,line);
-    for(int n = 0; n < 24; n++) // 20 indicates symbols in line. For 2x20 LCD write - 20
-    {
-            lcd.print(" ");
-    }
-}*/
 
 int CounterKad1;
 int CounterKad2;
